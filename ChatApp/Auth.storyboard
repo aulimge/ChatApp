@@ -12,7 +12,7 @@
         <!--View Controller-->
         <scene sceneID="uUp-y4-Ypl">
             <objects>
-                <viewController storyboardIdentifier="AuthNavigation" id="amh-Ib-Xan" sceneMemberID="viewController">
+                <viewController id="amh-Ib-Xan" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="gbl-mC-bS0"/>
                         <viewControllerLayoutGuide type="bottom" id="aGi-2c-BYA"/>
@@ -98,7 +98,7 @@
         <!--Navigation Controller-->
         <scene sceneID="R17-gL-vEM">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="9PS-7J-BgC" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="AuthNavigation" automaticallyAdjustsScrollViewInsets="NO" id="9PS-7J-BgC" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="WG0-lp-MR4">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
