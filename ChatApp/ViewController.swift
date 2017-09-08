@@ -12,12 +12,22 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        loadChat()
+        
+        
+        loadChatRoomDetails()
+        
     }
 
-    func loadChat() {
-        print("Load chat")
+    func loadChatRoomDetails() {
+       print("Print load image...")
+       loadChat()
+       
+    }
+    
+    
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
     }
 
 }
