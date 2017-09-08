@@ -18,6 +18,11 @@ class ViewController: UIViewController {
         
     }
 
+    func loadChat() {
+        print("Loading chat...")
+
+    }
+    
     func loadChatRoomDetails() {
        print("Print load image...")
        loadChat()
